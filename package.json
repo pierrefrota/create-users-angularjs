@@ -8,6 +8,6 @@
   "scripts": {
     "start": "live-server --host=localhost --port=3006",
     "sass": "sass --watch css/scss/styles.scss:css/styles.css",
-    "server": "json-server --port 3007  --watch data/db.json"
+    "server": "json-server --port 3007 --delay 4000 --watch data/db.json"
   }
 }
