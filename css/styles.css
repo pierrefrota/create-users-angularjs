@@ -296,4 +296,28 @@ main .register-user-container .register-user-content form .buttonBack:hover {
   filter: brightness(0.8);
 }
 
+.list-users-container {
+  padding: 1rem;
+}
+.list-users-container .list-users-content .list-users-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--gray-100);
+  padding: 0.5rem 1rem;
+}
+.list-users-container .list-users-content .list-users-card span {
+  display: block;
+}
+.list-users-container .list-users-content .list-users-actions button {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 5px;
+  border-radius: 0.25rem;
+  border: none;
+  background: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

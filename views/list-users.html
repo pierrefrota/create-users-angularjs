@@ -1,7 +1,22 @@
 <main>
   <div class="list-users-container">
+    <h2>Lista de usuários</h2>
     <div class="list-users-content">
-      <h2>Listar usuários</h2>
+      <div class="list-users-card">
+        <div class="list-users-info">
+          <h3>{user.name}</h3>
+          <span>Telefone: {user.phone}</span>
+          <span>CPF: {user.cpf}</span>
+          <div class="list-user-card-footer">
+            <a href="#">Ver detalhes</a>
+          </div>
+        </div>
+        <div class="list-users-actions">
+          <button>
+            <img src="/img/trash.svg" alt="Remover" />
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </main>

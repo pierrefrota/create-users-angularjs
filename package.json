@@ -1,0 +1,12 @@
+{
+  "name": "refatoracao-foco",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pierrefrota/create-users-angularjs.git",
+  "author": "pierrefrota <pierrefrota@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server --host=localhost --port=3006",
+    "sass": "sass --watch css/scss/styles.scss:css/styles.css"
+  }
+}

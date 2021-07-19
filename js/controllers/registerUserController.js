@@ -1,3 +1,3 @@
 app.controller("registerUserController", function ($scope) {
-  $scope.titulo = "Cadastrar novo usuário";
+  $scope.titulo = "Cadastrar novo usuário teste";
 });
