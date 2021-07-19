@@ -11,6 +11,11 @@ app.config(($routeProvider, $locationProvider) => {
     })
     .when("/list-users", {
       templateUrl: "views/list-users.html",
+      controller: "listUsersController",
+    })
+    .when("/user-details/:id", {
+      templateUrl: "views/user-details.html",
+      controller: "userDetailsController",
     })
     .when("/404.html", {
       templateUrl: "views/404.html",

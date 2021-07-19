@@ -1,0 +1,30 @@
+<main>
+  <div class="user-details-container">
+    <h2>Detalhes do usuário</h2>
+    <div class="user-details-content">
+      <div class="user-details-card">
+        <div class="user-details-info">
+          <h3>{user.name}</h3>
+          <span>Telefone: {user.phone}</span>
+          <span>CPF: {user.cpf}</span>
+          <p>E-mail: {user.email}</p>
+        </div>
+
+        <div class="user-details-address">
+          <h3>Endereço</h3>
+
+          <span>{user.locale}, 99</span>
+          <span>Bairro: {user.bairro}</span>
+          <span> {user.city} - {user.uf} </span>
+          <span>CEP: {user.cep}</span>
+        </div>
+      </div>
+      <div class="user-details-actions">
+        <button>
+          <span>Deletar usuário</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <Toaster />
+</main>

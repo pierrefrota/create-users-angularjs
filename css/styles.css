@@ -320,4 +320,53 @@ main .register-user-container .register-user-content form .buttonBack:hover {
   padding: 0.5rem;
 }
 
+.user-details-container {
+  padding: 1rem;
+}
+.user-details-container .user-details-content .user-details-card {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--gray-100);
+  padding: 0.5rem 1rem;
+}
+.user-details-container .user-details-content .user-details-card .user-details-info {
+  border-bottom: 1px solid var(--gray-100);
+}
+.user-details-container .user-details-content .user-details-card .user-details-info span {
+  display: block;
+}
+.user-details-container .user-details-content .user-details-card .user-details-info p {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 90%;
+  overflow: hidden;
+}
+.user-details-container .user-details-content .user-details-card .user-details-address {
+  margin-top: 1rem;
+}
+.user-details-container .user-details-content .user-details-card .user-details-address span {
+  display: block;
+}
+.user-details-container .user-details-content .user-details-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.user-details-container .user-details-content .user-details-actions button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+  background: var(--red);
+  border: 0;
+  height: 3rem;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.user-details-container .user-details-content .user-details-actions button span {
+  color: var(--white);
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=styles.css.map */
