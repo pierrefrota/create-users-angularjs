@@ -38,6 +38,32 @@
       "bairro": "Massaranduba",
       "city": "Salvador",
       "uf": "BA"
+    },
+    {
+      "name": "Pierre Frota",
+      "phone": "77999457391",
+      "email": "pierrefrota@gmail.com",
+      "cep": "46400-000",
+      "city": "Caetité",
+      "state": "Bahia",
+      "cpf": "88866699974",
+      "locale": "Das dores",
+      "number": "78",
+      "bairro": "Centro",
+      "id": "8d5o5695"
+    },
+    {
+      "id": "b9lxcmqu",
+      "name": "0",
+      "cpf": "1",
+      "phone": "2",
+      "email": "3",
+      "cep": "4",
+      "locale": "5",
+      "number": "6",
+      "bairro": "7",
+      "city": "8",
+      "state": "9"
     }
   ]
 }

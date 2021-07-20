@@ -1,40 +1,42 @@
 <main>
   <div class="register-user-container">
     <div class="register-user-content">
-      <h2>{{titulo}}</h2>
+      <h2>Cadastrar novo usuário teste</h2>
 
       <form>
         <div class="register-user-info">
-          <input type="text" placeholder="Nome completo" ng-model="name" />
+          <input type="text" placeholder="Nome completo" ng-model="user.name" />
           <div class="infoRow">
-            <input type="text" placeholder="CPF" ng-model="cpf" />
-            <input type="text" placeholder="Telefone" ng-model="phone" />
+            <input type="text" placeholder="CPF" ng-model="user.cpf" />
+            <input type="text" placeholder="Telefone" ng-model="user.phone" />
           </div>
-          <input type="text" placeholder="Email" ng-model="email" />
+          <input type="text" placeholder="Email" ng-model="user.email" />
         </div>
         <div class="address">
-          <input type="text" placeholder="CEP" ng-model="cep" />
+          <input type="text" placeholder="CEP" ng-model="user.cep" />
 
           <div class="addressRow">
-            <input type="text" placeholder="Rua" ng-model="street" />
+            <input type="text" placeholder="Rua" ng-model="user.locale" />
 
             <input
               class="addressNumber"
               type="text"
               placeholder="N°"
-              ng-model="number"
+              ng-model="user.number"
             />
           </div>
 
-          <input type="text" placeholder="Bairro" ng-model="bairro" />
+          <input type="text" placeholder="Bairro" ng-model="user.bairro" />
 
           <div class="addressRow">
-            <input type="text" placeholder="Cidade" ng-model="city" />
-            <input type="text" placeholder="Estado" ng-model="state" />
+            <input type="text" placeholder="Cidade" ng-model="user.city" />
+            <input type="text" placeholder="Estado" ng-model="user.uf" />
           </div>
         </div>
 
-        <button class="buttonSubmit" type="submit">Cadastrar</button>
+        <button class="buttonSubmit" ng-click="addUser(user)" type="submit">
+          Cadastrar
+        </button>
         <button class="buttonBack">Voltar</button>
       </form>
     </div>

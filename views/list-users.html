@@ -2,7 +2,7 @@
   <div class="list-users-container">
     <h2>Lista de usuários</h2>
     <div class="list-users-content">
-      <div class="spinner" ng-show="loading">
+      <div class="" ng-show="loading">
         <span>Carregando...</span>
       </div>
       <div ng-repeat="user in users" class="list-users-card">
@@ -15,7 +15,7 @@
           </div>
         </div>
         <div class="list-users-actions">
-          <button>
+          <button ng-click="deleteUserById(user)">
             <img src="/img/trash.svg" alt="Remover" />
           </button>
         </div>

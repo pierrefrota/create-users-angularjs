@@ -2,7 +2,10 @@
   <div class="user-details-container">
     <h2>Detalhes do usuário</h2>
     <div class="user-details-content">
-      <div class="user-details-card">
+      <div class="" ng-show="!user">
+        <span>Carregando...</span>
+      </div>
+      <div class="user-details-card" ng-show="user">
         <div class="user-details-info">
           <h3>{{user.name}}</h3>
           <span>Telefone: {{user.phone}}</span>
@@ -20,7 +23,7 @@
         </div>
       </div>
       <div class="user-details-actions">
-        <button>
+        <button ng-click="deleteUserById(user.id)">
           <span>Deletar usuário</span>
         </button>
       </div>
